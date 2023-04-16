@@ -1,0 +1,13 @@
+ {
+          data.products?.map((item)=>{
+            return(
+              <tr key={item.id}>
+                <td>{item.id}</td>  
+                <td>{item.category}</td>
+                <td>{item.title}</td>
+                <td>{item.description}</td>
+                <td>{item.price}</td>
+              </tr>
+            )
+          })
+        }

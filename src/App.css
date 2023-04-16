@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.root {
+  height: 60px;
+  background-color: gray;
+  color: white;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.nav {
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+}
+
+.input {
+  height: 30px;
+  margin-top: 5px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 40%;
+  padding-left: 3px;
+  border-style: none;
+}
+
+.input:hover {
+  height: 35px;
+  width: 320px;
+}
+
+.select {
+  height: 35px;
+  width: 50%;
+  margin-top: 5px;
+  background-color: white;
+  margin-left: 60px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+
+
+table,
+th,
+td {
+  border: 2px solid lightgray;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  text-align: center;
+  margin: 10px;
+
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+th {
+  font-size: 20px;
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+@media (max-width:767.98px) {
+  .root {
+    position: fixed;
+  }
+}
